@@ -7,3 +7,8 @@ if(age >= 65){
 }else{
     console.log("請購買兒童票")
 }
+
+//三元運算子
+var score = 40
+var isPass = score >= 60 ? "pass" : "fail"
+console.log(isPass) //fail
